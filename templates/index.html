@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Dog vs Cat Guesser</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Upload an image</h1>
+            <form method="post" enctype="multipart/form-data">
+                <input type="file" name="image" required id="file">
+                <input type="submit" value="Predict" class="predict">
+            </form>
+
+        {% if prediction %}
+        <h3>Prediction: {{ prediction }}</h2>
+        <img src="{{ image_path }}" width="300" alt="your image">
+        {% endif %}
+    </div>
+</body>
+</html>
