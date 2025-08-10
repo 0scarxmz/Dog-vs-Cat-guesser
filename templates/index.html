@@ -14,6 +14,7 @@
                 <input type="submit" value="Predict" class="predict">
             </form>
 
+        <!-- This template displays the prediction result and uploaded image. You also need to download Jinja2 extension -->
         {% if prediction %}
         <h3>Prediction: {{ prediction }}</h2>
         <img src="{{ image_path }}" width="300" alt="your image">
