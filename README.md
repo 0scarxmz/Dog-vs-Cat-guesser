@@ -94,7 +94,4 @@ dog-vs-cat/
 └── static/uploads/   # Uploaded images
 
 📜 License
-
----
-
-This README both explains the project and **highlights your inline comments** so a recruiter or reviewer immediately sees that you understand the process deeply.  
+MIT
