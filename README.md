@@ -98,5 +98,3 @@ dog-vs-cat/
 ---
 
 This README both explains the project and **highlights your inline comments** so a recruiter or reviewer immediately sees that you understand the process deeply.  
-
-Do you want me to now do the **same style README** for your **Emotion Recognition** project so they both match in format and show off your explanations? That way your portfolio will look consistent.
